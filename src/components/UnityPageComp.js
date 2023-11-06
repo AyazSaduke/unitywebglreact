@@ -34,6 +34,6 @@ export function UnityPageComp() {
     return (<div>
         <Unity unityProvider={unityProvider} style={{ width: "100vw", height: "100vh", overflow: "hidden", zIndex: 0 }} />
         {isShowOnboarding ? <Onboarding isActive={!isLoaded} startCallback={handleStartButton} /> : ""}
-        <div className="hud-score">Your click Scor is: {score}</div>
+        <div className="hud-score">Your click Score is: {score}</div>
     </div>);
 }
